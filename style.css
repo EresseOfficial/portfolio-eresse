@@ -45,7 +45,7 @@ body {
 
 #projectsColumn {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .github {
