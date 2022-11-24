@@ -1,0 +1,99 @@
+body {
+    // background-color: black;
+    color: white;
+    font-family: "Maven Pro";
+    padding: 10px;
+}
+.btn {
+    background-color: white;
+    color: black !important;
+    padding: 10px 15px;
+    border-radius: 50px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    &:hover {
+        color: white !important;
+        background-color: #6e8e9b;
+    }
+}
+  
+
+/********* HEADER *********/
+header {
+    // background-color: #393939;
+    nav {
+        background-color: #919191;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 15px;
+
+
+        img {
+            width: 80px;
+            border-radius: 50%;
+        }  
+
+        ul {
+            display: flex;
+            column-gap: 30px;
+
+            li {
+                list-style-type: none;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    .intro {
+        padding: 20px 0px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #393939;
+        
+        img {
+            width: 200px;
+            border-radius: 50%;
+        }
+    }
+}
+
+
+/********* MAIN PAGE *********/
+.projects {
+    background-color: black;
+    .projects-all{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .project-elements {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        width: 250px;
+        height: 125px;
+        border: 2px solid black;
+        border-radius: 32px;
+        background-color: white;
+        text-decoration: none;
+        list-style-type: none;   
+    }
+
+}
+
+
+
+
+.contact {
+
+}
