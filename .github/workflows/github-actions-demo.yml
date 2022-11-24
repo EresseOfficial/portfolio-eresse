@@ -27,4 +27,4 @@ jobs:
         run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
         
       - name: Deploy with rsync
-        run: rsync -n /Users/eressemusic/Library/CloudStorage/OneDrive-Epitech/Documents/EPITECH\ Cours/Portfolio\ 1ère\ année/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/azureuser/Documents/DevOps
+        run: rsync -n /Users/eressemusic/Library/CloudStorage/OneDrive-Epitech/Documents/EPITECH\ Cours/Portfolio\ 1ère\ année/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/Users/azureuser/Documents/DevOps
